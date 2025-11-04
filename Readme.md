@@ -94,21 +94,6 @@ You’ll get output like:
 รวมถูกรางวัลทั้งหมด 3 ใบ
 ```
 
----
-
-## 🧠 Class Overview
-
-### `LotteryChecker(csv_path: str)`
-Loads the result file and prepares it for checking.
-
-### `.check_lottery(numbers: list[str]) -> dict`
-Compares a list of ticket numbers against the official results.
-
-### `.print_results(results: dict, draw_date: str)`
-Pretty-prints the check results for a specific draw date.
-
----
-
 ## 🧰 Requirements
 
 - Python 3.8+
