@@ -20,8 +20,9 @@ You can use it to verify whether your ticket numbers match the winning numbers f
 lottery_checker/
     │
     ├── data/
-    |    └──  lottery_results_YYYYMMDD_HHMMSS.csv   # Example CSV result file
+    |    └──  lottery_results_YYYYMMDD_HHMMSS.csv   # Examle lottery award  result
     ├── lottery_checker.py                          # Core module containing LotteryChecker class
+    ├── generator_lottery.py                        # Generrate lottery award into csv
     ├── main.py                                     # Example script to run checker (your code)
     └── README.md                                   # This file
 ```
