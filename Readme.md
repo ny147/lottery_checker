@@ -18,12 +18,12 @@ You can use it to verify whether your ticket numbers match the winning numbers f
 
 ```
 lottery_checker/
-│
-├── generator_lottery.py        # Script to generate the latest lottery results CSV file
-├── lottery_checker.py          # Core module containing LotteryChecker class
-├── lottery_results_YYYYMMDD_HHMMSS.csv   # Generated CSV result file
-├── main.py                     # Script to check your numbers
-└── README.md                   # This file
+    │
+    ├── data/
+    |    └──  lottery_results_YYYYMMDD_HHMMSS.csv   # Example CSV result file
+    ├── lottery_checker.py                          # Core module containing LotteryChecker class
+    ├── main.py                                     # Example script to run checker (your code)
+    └── README.md                                   # This file
 ```
 
 ---
