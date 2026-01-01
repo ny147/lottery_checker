@@ -1,0 +1,4 @@
+pandas>=1.5
+selenium>=4.8
+webdriver-manager>=3.8
+pytest>=7.0
