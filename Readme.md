@@ -103,7 +103,7 @@ You’ll get output like:
 ```bash
 pip install pandas requests
 ```
-(if your implementation uses them internally)
+( if your implementation uses them internally )
 
 ---
 
