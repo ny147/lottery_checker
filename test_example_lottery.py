@@ -51,3 +51,4 @@ def test_export_results_creates_file(example_csv, tmp_path):
     assert out_file.exists()
     df = pd.read_csv(out_file, encoding='utf-8-sig')
     assert 'เลขสลาก' in df.columns
+print("hello world")
