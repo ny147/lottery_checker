@@ -18,4 +18,10 @@ checker.print_results(results, '16 ตุลาคม 2568')
 print("tester")
 print("hello world")
 
+
+print("hello world from feat/rebase_test")
+
 print("hello world from master")
+
+
+print("hello world from feat/rebase_test")
